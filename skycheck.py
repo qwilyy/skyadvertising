@@ -13,7 +13,7 @@ from sys import exit #
 # Also if you decided to spam this WebHook then props to you for being an asshole :D I have it muted anyways
 #
 #
-buyers = [""] #
+buyers = ["6A542136-E167-11EA-BF7C-27EF3FED1A00"] #
 #
 if platform.system() == "Windows": #
     uuid = subprocess.check_output("wmic csproduct get uuid").decode().split('\n')[1].strip() #
