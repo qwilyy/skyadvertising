@@ -1,6 +1,7 @@
 import platform #
 import subprocess #
 import requests #
+import webbrowser #
 from datetime import datetime #
 from sys import exit #
 #
@@ -24,6 +25,7 @@ else: #
 #
 if uuid not in buyers: #
     print("[!] You need to purchase Sky Advertiser first!") #
+    webbrowser.open("https://discord.gg/auratools")
     input("[#] Press Enter to exit...") #
     exit() #
 # 
